@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    margin-top: 10px;
+    margin-left: 45px;
+    background-color: rgb(242, 238, 238);
+    
+
+    
+}
+.Navbar{
+    display: flex;
+}
+.Ratings{
+    display: grid;
+    margin-top: 130px;
+    font-weight: bold;
+    padding-left: -30px;
+        
+}
+.Rating1{
+    display: flex;
+    background-color: gainsboro;
+    height: 40px;
+    width: 450px;
+    align-items: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: rgb(92, 4, 92);
+    padding-left: 130px;
+    justify-content: space-around;
+}
+
+.Rating2{
+    display: flex;
+    background-color: gainsboro;
+    height: 40px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: rgb(92, 4, 92);
+    padding-left: 100px;
+    justify-content: space-between;
+
+}
+.Rating3{
+    display: flex;
+    background-color: gainsboro;
+    height: 40px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    color: rgb(92, 4, 92);
+    padding-left: 130px;
+    justify-content: space-between;
+
+}
+p{
+    font-size: 14px;
+    color: rgb(102, 9, 102);
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 38px;
+    color: rgb(102, 9, 102);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 100px;
+    padding-top: 100px;
+
+}
+h3{
+    font-size: large;
+    padding-left: 100px;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h5{
+    padding-left: 120px;
+    font-size: small;
+    color: orange;
+}
+h6{
+    font-size:11px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+b{
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+    
+}
+.Boxes{
+    display: flex;
+    margin-top: 100px;
+    height: 90px;
+    color: white;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+
+
+}
+.Box1{
+    background-color: rgb(102, 9, 102);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-left: 90px;
+}
+.Box2{
+    background-color: rgb(102, 9, 102);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+.Box3{
+    background-color: rgb(102, 9, 102);
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 60px;
+    margin-right: 120px;
+}
+
+.icon-color{
+    color: orange;
+
+}
+.icon-spacing{
+
+
+
+}
+.icon{
+display: flex;
+justify-content: space-between;
+padding-right: 15px;
+}
+
